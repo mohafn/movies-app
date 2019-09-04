@@ -4,4 +4,58 @@
 body {
     margin: 0;
     font-family: 'Philosopher', sans-serif;
+    background-color: #ccd7d3;
+}
+
+.navDiv {
+    background-color: #d5b000;
+}
+
+/* https://www.w3schools.com/howto/howto_css_parallax.asp */
+.homeSection {
+  background-image: url('http://hdqwalls.com/wallpapers/once-upon-a-time-in-hollywood-4k-2019-6b.jpg');
+  height: 100vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: #d5b000 3px solid;
+}
+
+.quoteDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #ede3d3;
+}
+
+#topRatedSection {
+    width: 95%;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+    color: #4b6079;
+}
+
+.card {
+    text-align: center;
+    background-color: #4b6079;
+    color: #ccd7d3;
+}
+
+.card-content {
+    height: 90px;
+}
+
+footer {
+    height: 100px;
+    background-color: #d5b000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4b6079;
 }
