@@ -6,9 +6,7 @@ $(document).ready(function () {
         duration: 1500
     });
 
-    $('#topRated').click(function(){
-        $.scrollTo('#topRatedSection', 1000);
-    });
+   
 
     // you can create your API KEY from https://www.themoviedb.org/documentation/api
     // and then replaced the <YOUR-API-KEY> with your API KEY
